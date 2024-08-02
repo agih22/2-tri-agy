@@ -6,66 +6,66 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Você está explorando um novo parque e encontra um jardim secreto cheio de plantas exóticas. Qual é a sua reação inicial?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Fico maravilhado e quero explorar cada canto desse jardim secreto!",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Fico cauteloso e penso se é seguro continuar explorando.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Um grupo de pesquisadores convida você para participar de um estudo sobre as mudanças climáticas globais. Como você decide contribuir?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Participo ativamente das discussões e busco aprender mais sobre o impacto das mudanças climáticas.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Contribuo com minhas experiências pessoais, mas deixo a maior parte do trabalho para os especialistas.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Você encontra um livro antigo e misterioso em uma loja de antiguidades. Qual é a sua primeira reação ao folhear suas páginas?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Fico fascinado com a história e os segredos que o livro pode conter.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Fico desconfiado e me pergunto se o livro pode conter alguma armadilha ou perigo.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Você é desafiado a criar uma obra de arte que represente suas esperanças para o futuro da humanidade. Como você aborda essa tarefa?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Uso minha imaginação e criatividade para criar uma representação otimista e inspiradora.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Prefiro refletir sobre os desafios que enfrentamos e criar uma obra que mostre a necessidade de mudanças.",
                 afirmacao: "afirmação"
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Você é convidado a participar de um debate sobre o papel da tecnologia na educação do futuro. Qual é a sua perspectiva principal sobre o assunto?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
+                texto: "Acredito que a tecnologia pode ampliar o acesso à educação e melhorar as experiências de aprendizado.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto: "Preocupo-me com os desafios éticos e sociais que a tecnologia pode trazer para o ambiente educacional.",
                 afirmacao: "afirmação"
             }
         ]
